@@ -1,8 +1,77 @@
-# Default ignored files
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.lock
+
+# Directory for instrumented classes
+target/classes
+
+# this file is created by Spring Boot
+.mvn/wrapper/MavenWrapperDownloader.jar
+
+# Maven metadata
+.mvn/metadata.xml
+
+# Gradle metadata
+.gradle/metadata/
+.gradle/caches/
+.gradle/wrapper/
+
+# IDEA files
+.idea/
+*.iws
+*.iml
+
+# Build artifacts
+target/
+
+# Database files
+*.sqlite3
+*.sqlite
+*.ldb
+*.db
+*.db-journal
+
+# npm
+node_modules/
+
+# yarn
+.yarn/
+.yarnrc
+yarn.lock
+
+# IntelliJ IDEA files
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/compiler.xml
+.idea/misc.xml
+.idea/gradle.xml
+.idea/runConfigurations/
+
+# IntelliJ IDEA code directories
+.idea/codeStyles/
+
+# Git files
+.git/
+.gitignore
+.gitattributes
+
+# Maven and Gradle caches (optional)
+.m2/
+.gradle/
+
+# Ignored files
 /shelf/
 /workspace.xml
-# Editor-based HTTP Client requests
 /httpRequests/
-# Datasource local storage ignored files
 /dataSources/
-/dataSources.local.xml
+/dataSources.local.
+
+# Application properties
+application.
